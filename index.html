@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio Fabio Romero</title>
+</head>
+
+<body>
+    <!--MENU ENCABEZADO-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">FR</a>
+            </div>
+            <nav id="navegação">
+                <ul>
+                    <li><a href="#inicio" onclick="selecione()">Inicio</a></li>
+                    <li><a href="#sobremim" onclick="selecione()">Sobre Mim</a></li>
+                    <li><a href="#skills" onclick="selecione()">Skills</a></li>
+                    <li><a href="#curriculo" onclick="selecione()">Curriculo</a></li>
+                    <li><a href="#portfolio" onclick="selecione()">Portfolio</a></li>
+                    <li><a href="#contato" onclick="selecione()">Contato</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+        </header>
+    </div>
+
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="container-banner">
+            <div class="container-img">
+                <img src="./assets/perfil.png" alt="foto principal">
+            </div>
+            <h1>Fabio Romero</h1>
+            <h2>Programador Front End</h2>
+            <div class="redes-sociais">
+                <a href="https://www.linkedin.com/in/fabioromeroo/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ProfeFabio14" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/romerofr14/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.link/cvwj94" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--SOBRE MIM-->
+    <section id="sobremim" class="sobre-mim">
+        <div class="contenido-sobremim">
+            <h2>Sobre Mim</h2>
+            <p><span>Olá, meu nome é Fábio.</span> Sou um Desenvolvedor e Programador Front-end com experiência Júnior,
+                envolvido em projetos acadêmicos e como freelancer. Em 2022, tive meu primeiro contato com programação
+                ao descobrir a linguagem JavaScript, com suas diversas bibliotecas e frameworks. A capacidade de criar
+                uma ampla variedade de aplicativos que podem ser usados por outras pessoas me fascinou profundamente.
+                Essa experiência despertou uma paixão crescente por evoluir e alcançar o próximo nível. Ao longo da
+                minha carreira, tenho desenvolvido projetos tanto individuais quanto em equipe, aprimorando
+                continuamente minhas habilidades técnicas.</p>
+
+
+            <div class="linhas-interesse">
+                <!--dados pessoais-->
+                <div class="col">
+                    <h3>Dados Pessoais</h3>
+                    <ul>
+                        <li>
+                            <strong>Aniversário</strong>
+                            14-04-1989
+                        </li>
+
+                        <li>
+                            <strong>Endereço</strong>
+                            Balneario Camboriú, Santa Catarina
+                        </li>
+
+                        <li>
+                            <strong>Celular</strong>
+                            +55 (47) 9 9745-3024
+                        </li>
+
+                        <li>
+                            <strong>E-mail</strong>
+                            fabiiosbs@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desenvolvedor Freelancer</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--Interesses-->
+                <div class="col">
+                    <h3>Interesses</h3>
+                    <div class="container-interesses">
+                        <div class="interesses">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <span>ACADEMIA</span>
+                        </div>
+                        <div class="interesses">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTEBOL</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAGEM</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>CAMINHADA</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARROS</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>ROBÓTICA</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-umbrella-beach"></i>
+                            <span>PRAIA</span>
+                        </div>
+
+                        <div class="interesses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LER</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <button class="button-Download">
+                <a download="Fabio Romero CV" href="./assets/Fabio Romero Currículo BR..pdf">Baixar currículo</a>
+                 <i class="fa-solid fa-download"></i>
+                <span class="cobrir" ></span>
+            </button>
+        </div>
+    </section>
+
+
+    <!--SKILLS-->
+    <section class="skills" id="skills">
+        <div class="conteudo-skills">
+            <h2>Skills</h2>
+            <div class="linha-skills">
+                <!--Technical Skills-->
+                <div class="col-skills">
+                    <h3>Technical Skills</h3>
+
+                    <div class="skill">
+                        <span>HTML</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>CSS</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Wordprees</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>82%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Arduino</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Profissional Skills-->
+                <div class="col-skills">
+                    <h3>Profissional Skills</h3>
+
+                    <div class="skill">
+                        <span>Comunicação</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Trabalho em equipe</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Criatividade</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedicação</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span> Project Management</span>
+                        <div class="barra-skills">
+                            <div class="progresso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--CURRICULO-->
+    <section class="curriculo" id="curriculo">
+        <div class="conteudo-curriculo">
+            <h2>Curriculo</h2>
+            <div class="linha-curriculo">
+                <div class="col esquerda">
+                    <h3>Educação</h3>
+
+
+                    <div class="item esq">
+                        <h4>Formação Full Stack</h4>
+                        <span class="casa">Academia Dev Club</span>
+                        <span class="data"> 2023 - Atualmente</span>
+                        <p>Formação completa em programação integral, projetada para um público sem
+                            experiência prévia, abrangendo desde os fundamentos até um nível avançado, com o objetivo
+                            dese tornar um programador full stack. Contém aulas completas de HTML, CSS, JavaScript,
+                            Node, Banco de
+                            Dados e React.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="item esq">
+                        <h4>Formação em Ecommerce na Amazon</h4>
+                        <span class="casa">Universidade NUM</span>
+                        <span class="data"> 2023 - 2024</span>
+                        <p>A carreira de E-commerce prepara você para se destacar na gestão completa de uma loja na
+                            Amazon, desde a sua criação até a utilização de ferramentas avançadas e estratégias de
+                            otimização. A formação abrangente oferece a base sólida e necessária para enfrentar os
+                            desafios e aproveitar as oportunidades no mundo do comércio online.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="item esq">
+                        <h4>Professor de Tecnologia</h4>
+                        <span class="casa">Instituto Gral. San Martin</span>
+                        <span class="data"> 2012 - 2016 - Argentina</span>
+                        <p>Carreira em Educação Tecnológica com especialização em Eletrônica, Programação e Robótica,
+                            focada nos ensinos fundamental, médio e superior.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col direita">
+                    <h3>Experiência de trabalho</h3>
+                    <div class="item dire">
+                        <h4>Desenvolvedor Freelancer</h4>
+                        <span class="casa">Remoto</span>
+                        <span class="data"> 2023 - Atualmente</span>
+                        <p>Experiência na realização de projetos envolvendo meus conhecimentos em HTML, CSS e
+                            JavaScript. Atuando como freelancer, desenvolvi e implementei soluções inovadoras para criar
+                            sites personalizados. Essa experiência contribuiu para aprimorar minhas habilidades e
+                            desenvolver meu portfólio.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item dire">
+                        <h4>Marketing digital</h4>
+                        <span class="casa">Remoto</span>
+                        <span class="data"> 2023 - Atualmente</span>
+                        <p>Experiência no campo do marketing digital e design criativo, implementando estratégias
+                            eficazes para redes sociais. Desenvolvi habilidades na criação de flyers, logos e edição de
+                            vídeos, proporcionando uma abordagem visual atrativa e profissional. Além disso, participei
+                            na criação e gestão de páginas no Instagram e Facebook.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="item dire">
+                        <h4>Professor Supervisor</h4>
+                        <span class="casa">Robótica Catamarca </span>
+                        <span class="data"> 2019 - 2022</span>
+                        <p>Na Robótica Catamarca, dediquei-me a capacitar pessoas de todas as idades em programação e
+                            desenvolvimento com Arduino, Mblock. Liderando projetos que promoveram o aprendizado
+                            tecnológico e habilidades inovadoras. Além disso, contribuí para a criação de soluções
+                            tecnológicas que abordaram problemas sociais e apoiaram comunidades vulneráveis através da
+                            programação e automação de projetos personalizados.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--PORTFOLIO-->
+    <section class="portfolio" id="portfolio">
+        <div class="conteudo-portfolio">
+            <h2>PORTFOLIO</h2>
+
+            <div class="galeria">
+
+                <div class="projeto">
+                    <img src="./assets/img-Conversor-Moeda.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://profefabio14.github.io/Conversor-de-Moeda/" target="_blank">Conversor</a>
+                        </h3>
+                        <p><a href="https://profefabio14.github.io/Conversor-de-Moeda/" target="_blank">Moeda</a></p>
+                    </div>
+                </div>
+
+
+                <div class="projeto">
+                    <img src="./assets/img-Dev-Sorteio.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://profefabio14.github.io/Dev-Sorteio/" target="_blank">Dev</a>
+                        </h3>
+                        <p><a href="https://profefabio14.github.io/Dev-Sorteio/" target="_blank">Sorteio</a></p>
+
+                    </div>
+                </div>
+
+
+
+                <div class="projeto">
+                    <img src="./assets/img-Camaro.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://profefabio14.github.io/Camaro-Change/" target="_blank">Camaro</a>
+                        </h3>
+                        <p><a href="https://profefabio14.github.io/Camaro-Change/" target="_blank">Change</a></p>
+                    </div>
+                </div>
+
+
+                <div class="projeto">
+                    <img src="./assets/img-Kinny-Showroom.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://kinnyshowroom.com/" target="_blank">Kinny</a>
+                        </h3>
+                        <p><a href="https://kinnyshowroom.com/" target="_blank">Showroom</a></p>
+
+                    </div>
+                </div>
+
+
+                <div class="projeto">
+                    <img src="./assets/img-We-Care.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://profefabio14.github.io/-We-Care--Pet/" target="_blank">We Care</a>
+                        </h3>
+                        <p><a href="https://profefabio14.github.io/-We-Care--Pet/" target="_blank">Pet</a></p>
+                    </div>
+                </div>
+
+
+                <div class="projeto">
+                    <img src="./assets/img-Easy-Shopping.png" alt="Foto do site">
+                    <div class="overlay">
+                        <h3><a href="https://profefabio14.github.io/Easy-Shooping/" target="_blank">Easy</a>
+                        </h3>
+                        <p><a href="https://profefabio14.github.io/Easy-Shooping/" target="_blank">Shopping</a></p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--CONTATO-->
+    <section class="contato" id="contato">
+        <div class="conteudo-contato">
+
+            <h2>CONTATO</h2>
+            <div class="linha-contato">
+                <!--Formulario-->
+                <form class="col" action="https://formcarry.com/s/78E44O7mMk5" method="POST"
+                    enctype="multipart/form-data">
+                    <input type="text" name="nome" placeholder="Seu Nome">
+                    <input type="tel" name="celular" placeholder="Telefone">
+                    <input type="email" name="correo" placeholder="Correo">
+                    <input type="text" name="asunto" placeholder="Assunto">
+                    <textarea name="duvidas" cols="30" rows="8" placeholder="Mensaje"></textarea>
+                    <button type="submit">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </form>
+                <!--VIDEO-->
+                <div class="col">
+                    <video src="./assets/video.mp4" muted autoplay playsinline loop></video>
+                   
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Balneario Camboriú, SC
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Contáctame: +55 (47) 997-453 024
+                            </li>
+
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                E-mail: fabiiosbs@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="acima">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes-sociais">
+            <a href="https://www.linkedin.com/in/fabioromeroo/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/ProfeFabio14" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/romerofr14/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.link/cvwj94" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+        </div>
+
+        <p>Site desenvolvido por Fabio Romero</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
